@@ -1,5 +1,5 @@
-$repoName=$args[0] 
-$username=$args[1]
+$repoName=Read-Host -Prompt "Enter the name of the repositroy you'd like to create: "
+$username=Read-Host -Prompt "Enter your github username: "
 #change to a path you wwant to have all your git projects in
 $repoDir = 'D:\Matts Stuff\my-git-repos'
 
