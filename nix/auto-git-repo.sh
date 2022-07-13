@@ -22,7 +22,7 @@ cd "$repoPath/$repoName"
 touch README.md
 echo "#$repoName" > README.md	
 git init
-curl -u "$username" https://api.github.com/user/repos -d '{"name":"$repoName"}'
+curl -u "$username" https://api.github.com/user/repos -d '{"name":"'$repoName'"}'
 git config --global --add safe.directory "$repoPath/$repoName"
 git remote add origin https://github.com/$username/$repoName.git
 
