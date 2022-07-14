@@ -13,6 +13,7 @@ else
 fi
 
 if [[ -d "$repoPath/$repoName" ]]; then 
+	echo "This path already exists, tou cannot write to it"
 	exit 1
 else 
 	mkdir "$repoPath/$repoName"
