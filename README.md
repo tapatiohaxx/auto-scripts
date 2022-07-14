@@ -14,4 +14,6 @@ This script reqiures that you have <code> git</code> installed, which you may al
    <li> Run the <code> .\make-gitrepoauto</code> script for Windows or the <code> git-repo-auto.sh </code> script for Linux </li>
    <li> Make a <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token"> personal access token </a> on github and paste it onto a safe and secure file and onto the terminal where you need to authenticate. You will need to authenticatte each time you use this program.</li>
    <li> Check your GitHub repo when it is finished creating. </li>
+   jj
+   `
 </ol>
