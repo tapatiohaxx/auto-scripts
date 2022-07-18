@@ -3,7 +3,7 @@
 read -p "Enter your username: " username
 read -p "Enter your new repo's name:  " repoName
 read -p "Enter the directory you'd like to store your repo in. (Default is /Data/my-git-repos): " repoPath
-defaultRepoPath="/Data/my-git-repos"
+$defaultRepoPath="/Data/my-git-repos"
 
 
 if [[ "$repoPath" == "" ]]; then
