@@ -4,6 +4,7 @@ Description: A growing list of scripts that I am working on that automate tasks 
 
 <h2> Directory Structure: </h2>
 Navigate to the directory for your desired system. Use a <code> .ps1 </code> script for Windows and a <code> .sh </code> script for Linux.
+I have also added scripts for <code> adb </code> that do various things to Android phones.
 
 <h2> 1: Automatically Create a Git Repo </h2>
 This script reqiures that you have <code> git</code> installed, which you may already have installed because you're here.
